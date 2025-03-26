@@ -1,0 +1,32 @@
+- No space in the lab system(<1gb)
+- I have cloned the code in my windows system 
+- 
+
+Camera Init
+My observations - 
+software was able to detect all the cores available(12) and used them(12)
+Available memory: 25.4 GB
+total number of images fed - 439
+all images contain EXIF data - collect 439 images focal length
+
+Feature Extraction
+My observations - 
+Theory Used - SIFT (Scale-Invariant Feature Transform)
+extracts keypoints and descriptors
+
+Image Matching
+My observations - 
+finds out extracted features across multiple images and groups them accordingly 
+
+Feature Matching 
+My observations - 
+Determines which points correspond to the same real world points in different images.
+
+Structure from motion 
+My observations - 
+estimates the camera pose (position & orientation) for each image
+
+Prepare Dense Scene
+Depth map
+Depth Map Filter
+Meshing 

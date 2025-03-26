@@ -1,0 +1,34 @@
+[2025-03-17 19:12:38.613577] [0x00007f516c8cb000] [trace]   Embedded OCIO configuration file: '/home/neurotech/Documents/Meshroom-2023.3.0/aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * computeNormalMaps = 0
+ * depthMapsFolder = "/home/neurotech/Documents/JB/MeshroomCache/DepthMap/5e0426883c8c70003acd723e8a30e2fdef12af91"
+ * input = "/home/neurotech/Documents/JB/MeshroomCache/StructureFromMotion/4bf1ca96b9a175a1a2df3b094078b1c9b38611f3/sfm.abc"
+ * maxCoresAvailable =  Unknown Type "j"
+ * maxMemoryAvailable = 9223372036854771712
+ * maxViewAngle = 70
+ * minNumOfConsistentCams = 3
+ * minNumOfConsistentCamsWithLowSimilarity = 4
+ * minViewAngle = 2
+ * nNearestCams = 10
+ * output = "/home/neurotech/Documents/JB/MeshroomCache/DepthMapFilter/f6b1500640c00bf70192afe23ab476ba5448ad6c"
+ * pixSizeBall = 0
+ * pixSizeBallWithLowSimilarity = 0
+ * pixToleranceFactor = 2
+ * rangeSize = 24
+ * rangeStart = 0
+ * verboseLevel = "info"
+
+Hardware : 
+	Detected core count : 12
+	User upper limit on core count : 12
+	OpenMP will use 12 cores
+	Detected available memory : 25192 Mo
+	User upper limit on memory available : 8796093022207 Mo
+
+[19:12:38.874620][info] Found 1 image dimension(s): 
+[19:12:38.874696][info] 	- [1920x1080]
+[19:12:38.950234][info] Overall maximum dimension: [960x540]
+[19:12:38.950272][info] Filter depth maps.
+[19:12:38.950290][info] Precomputing groups.
+[19:12:45.599539][info] Filtering depth maps.
+[19:12:46.017022][info] Task done in (s): 7.401000

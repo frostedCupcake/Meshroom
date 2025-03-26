@@ -1,0 +1,41 @@
+[2025-03-17 17:48:19.712442] [0x00007f3ebfd6e000] [trace]   Embedded OCIO configuration file: '/home/neurotech/Documents/Meshroom-2023.3.0/aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * allowSingleView = 1
+ * allowedCameraModels = "pinhole,radial1,radial3,brown,fisheye4,fisheye1,3deanamorphic4,3deradial4,3declassicld"
+ * colorProfileDatabase = "" (default)
+ * defaultCameraModel = "" (default)
+ * defaultFieldOfView = 45
+ * defaultFocalLength = -1 (default)
+ * defaultFocalRatio = 1 (default)
+ * defaultOffsetX = 0 (default)
+ * defaultOffsetY = 0 (default)
+ * errorOnMissingColorProfile = 1 (default)
+ * groupCameraFallback =  Unknown Type "20EGroupCameraFallback"
+ * imageFolder = "" (default)
+ * input = "/home/neurotech/Documents/JB/MeshroomCache/CameraInit/0883229bebb3d7b58bcf49d9ce7b92a8d2d0b392/viewpoints.sfm"
+ * lensCorrectionProfileInfo = "${ALICEVISION_LENS_PROFILE_INFO}"
+ * lensCorrectionProfileSearchIgnoreCameraModel = 1
+ * maxCoresAvailable =  Unknown Type "j" (default)
+ * maxMemoryAvailable = 18446744073709551615 (default)
+ * output = "/home/neurotech/Documents/JB/MeshroomCache/CameraInit/0883229bebb3d7b58bcf49d9ce7b92a8d2d0b392/cameraInit.sfm"
+ * rawColorInterpretation =  Unknown Type "N11aliceVision5image23ERawColorInterpretationE"
+ * sensorDatabase = "/home/neurotech/Documents/Meshroom-2023.3.0/aliceVision/share/aliceVision/cameraSensors.db"
+ * verboseLevel = "info"
+ * viewIdMethod =  Unknown Type "N11aliceVision9sfmDataIO13EViewIdMethodE"
+ * viewIdRegex = ".*?(\d+)" (default)
+
+Hardware : 
+	Detected core count : 12
+	OpenMP will use 12 cores
+	Detected available memory : 25432 Mo
+
+[17:48:19.753348][info] 0 profile(s) stored in the LCP database.
+[17:48:19.795931][info] CameraInit report:
+	- # Views: 439
+	   - # with focal length initialization (from metadata): 439
+	   - # without metadata: 0
+	   - # with DCP color calibration (raw images only): 0
+	   - # with LCP lens distortion initialization: 0
+	   - # with LCP vignetting calibration: 0
+	   - # with LCP chromatic aberration correction models: 0
+	- # Cameras Intrinsics: 1

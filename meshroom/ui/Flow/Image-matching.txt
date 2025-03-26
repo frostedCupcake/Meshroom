@@ -1,0 +1,148 @@
+[2025-03-17 17:48:19.877544] [0x00007fece2063000] [trace]   Embedded OCIO configuration file: '/home/neurotech/Documents/Meshroom-2023.3.0/aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * contrastFiltering =  Unknown Type "N11aliceVision7feature26EFeatureConstrastFilteringE"
+ * describerPreset =  Unknown Type "N11aliceVision7feature21EImageDescriberPresetE"
+ * describerQuality =  Unknown Type "N11aliceVision7feature15EFeatureQualityE"
+ * describerTypes = "dspsift"
+ * forceCpuExtraction = 1
+ * gridFiltering = 1
+ * input = "/home/neurotech/Documents/JB/MeshroomCache/CameraInit/0883229bebb3d7b58bcf49d9ce7b92a8d2d0b392/cameraInit.sfm"
+ * maskExtension = "png"
+ * maskInvert = 0
+ * masksFolder = ""
+ * maxCoresAvailable =  Unknown Type "j"
+ * maxMemoryAvailable = 9223372036854771712
+ * maxNbFeatures = 0 (default)
+ * maxThreads = 0
+ * output = "/home/neurotech/Documents/JB/MeshroomCache/FeatureExtraction/c5c0028ae764a4f4240e6c775613a96d169928a7"
+ * rangeSize = 40
+ * rangeStart = 0
+ * relativePeakThreshold = 0.02 (default)
+ * verboseLevel = "info"
+ * workingColorSpace =  Unknown Type "N11aliceVision5image16EImageColorSpaceE"
+
+Hardware : 
+	Detected core count : 12
+	User upper limit on core count : 12
+	OpenMP will use 12 cores
+	Detected available memory : 25406 Mo
+	User upper limit on memory available : 8796093022207 Mo
+
+[17:48:19.879930][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    NVIDIA GeForce GTX 1650
+	- compute capability:      7.5
+	- clock frequency (kHz):   1710000
+	- total device memory:     3896 MB 
+	- device memory available: 3432 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   1024
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        14
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+CUDA build version: 11.3
+0
+[17:48:19.979657][info] Job max memory consumption for one image: 642 MB
+[17:48:19.979692][info] Memory information: 
+	- Total RAM:     31.2735 GB
+	- Free RAM:      6.67535 GB
+	- Available RAM: 24.695 GB
+	- Total swap:    23.2832 GB
+	- Free swap:     23.282 GB
+[17:48:19.979709][info] Max number of threads regarding memory usage: 35
+[17:48:19.979715][info] # threads for extraction: 12
+[17:48:20.087418][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0264.jpg' [cpu]
+[17:48:20.091280][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0433.jpg' [cpu]
+[17:48:20.095808][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0120.jpg' [cpu]
+[17:48:20.095980][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0241.jpg' [cpu]
+[17:48:20.098580][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0070.jpg' [cpu]
+[17:48:20.100439][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0086.jpg' [cpu]
+[17:48:20.103011][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0051.jpg' [cpu]
+[17:48:20.104216][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0116.jpg' [cpu]
+[17:48:20.112924][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0370.jpg' [cpu]
+[17:48:20.115264][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0275.jpg' [cpu]
+[17:48:20.119159][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0366.jpg' [cpu]
+[17:48:20.121682][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0146.jpg' [cpu]
+[17:48:29.034196][info]       18792 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0370.jpg'
+[17:48:29.145571][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0247.jpg' [cpu]
+[17:48:29.296032][info]       18519 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0366.jpg'
+[17:48:29.379605][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0358.jpg' [cpu]
+[17:48:30.753790][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0241.jpg'
+[17:48:30.867361][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0071.jpg' [cpu]
+[17:48:30.934169][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0275.jpg'
+[17:48:31.034574][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0271.jpg' [cpu]
+[17:48:32.950405][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0120.jpg'
+[17:48:33.061251][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0224.jpg' [cpu]
+[17:48:33.387671][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0433.jpg'
+[17:48:33.510651][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0279.jpg' [cpu]
+[17:48:33.923065][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0264.jpg'
+[17:48:34.024304][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0143.jpg' [cpu]
+[17:48:34.039755][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0070.jpg'
+[17:48:34.105593][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0090.jpg' [cpu]
+[17:48:36.309873][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0086.jpg'
+[17:48:36.410751][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0136.jpg' [cpu]
+[17:48:36.803005][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0146.jpg'
+[17:48:36.870670][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0299.jpg' [cpu]
+[17:48:36.928889][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0116.jpg'
+[17:48:36.966664][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0128.jpg' [cpu]
+[17:48:37.024934][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0051.jpg'
+[17:48:37.073591][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0193.jpg' [cpu]
+[17:48:43.765744][info]       18685 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0271.jpg'
+[17:48:43.864475][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0252.jpg' [cpu]
+[17:48:45.425464][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0247.jpg'
+[17:48:45.552324][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0134.jpg' [cpu]
+[17:48:45.647514][info]       19271 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0224.jpg'
+[17:48:45.723533][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0055.jpg' [cpu]
+[17:48:46.184487][info]       18842 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0279.jpg'
+[17:48:46.271150][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0063.jpg' [cpu]
+[17:48:46.588343][info]       18666 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0090.jpg'
+[17:48:46.638289][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0390.jpg' [cpu]
+[17:48:47.400302][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0071.jpg'
+[17:48:47.453608][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0314.jpg' [cpu]
+[17:48:48.490745][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0358.jpg'
+[17:48:48.567523][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0005.jpg' [cpu]
+[17:48:49.124589][info]       19645 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0193.jpg'
+[17:48:49.184972][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0282.jpg' [cpu]
+[17:48:51.500449][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0128.jpg'
+[17:48:51.598204][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0030.jpg' [cpu]
+[17:48:52.518926][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0143.jpg'
+[17:48:52.572425][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0136.jpg'
+[17:48:52.590195][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0318.jpg' [cpu]
+[17:48:52.669453][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0144.jpg' [cpu]
+[17:48:52.881600][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0299.jpg'
+[17:48:52.930192][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0104.jpg' [cpu]
+[17:48:58.544673][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0055.jpg'
+[17:48:58.594661][info]       18905 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0314.jpg'
+[17:49:01.429244][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0063.jpg'
+[17:49:02.218900][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0390.jpg'
+[17:49:02.326915][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0306.jpg' [cpu]
+[17:49:02.684467][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0252.jpg'
+[17:49:03.016517][info]       15063 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0030.jpg'
+[17:49:03.544501][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0134.jpg'
+[17:49:03.647646][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0199.jpg' [cpu]
+[17:49:03.866687][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0282.jpg'
+[17:49:04.998782][info]       16999 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0104.jpg'
+[17:49:05.533825][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0318.jpg'
+[17:49:05.557854][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0144.jpg'
+[17:49:05.558394][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0114.jpg' [cpu]
+[17:49:06.903688][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0005.jpg'
+[17:49:06.928649][info] Extracting dspsift features from view '/home/neurotech/Documents/JB/EXP-two/output_0301.jpg' [cpu]
+[17:49:11.343868][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0199.jpg'
+[17:49:11.632976][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0306.jpg'
+[17:49:12.284074][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0114.jpg'
+[17:49:13.416974][info]       20000 dspsift features extracted from view '/home/neurotech/Documents/JB/EXP-two/output_0301.jpg'
+[17:49:13.419108][info] Task done in (s): 53.439000

@@ -1,0 +1,27 @@
+[2025-03-17 18:30:39.390430] [0x00007f281267d000] [trace]   Embedded OCIO configuration file: '/home/neurotech/Documents/Meshroom-2023.3.0/aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * evCorrection = 0
+ * input = "/home/neurotech/Documents/JB/MeshroomCache/StructureFromMotion/4bf1ca96b9a175a1a2df3b094078b1c9b38611f3/sfm.abc"
+ * maskExtension = "png"
+ * maxCoresAvailable =  Unknown Type "j"
+ * maxMemoryAvailable = 9223372036854771712
+ * output = "/home/neurotech/Documents/JB/MeshroomCache/PrepareDenseScene/6c50b5c8ed565b7e6a3f65e3e2dcfd395dec7a4b"
+ * outputFileType = "exr"
+ * rangeSize = 40
+ * rangeStart = 0
+ * saveMatricesTxtFiles = 0
+ * saveMetadata = 1
+ * verboseLevel = "info"
+
+Hardware : 
+	Detected core count : 12
+	User upper limit on core count : 12
+	OpenMP will use 12 cores
+	Detected available memory : 25169 Mo
+	User upper limit on memory available : 8796093022207 Mo
+
+Exporting Scene Undistorted Images
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+[18:30:39.645847][info] Median Camera Exposure: -1, Median EV: nan
+***************************************************
